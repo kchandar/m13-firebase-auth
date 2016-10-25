@@ -7,7 +7,7 @@ $(function() {
 	    storageBucket: "lab-7718f.appspot.com",
 	    messagingSenderId: "653768345802"
 	};
-	firebase.initializeApp(config);
+	firebase.initializeApp(config); 
 
 	// Initialize your 'users' firebase reference
 	var userRef = firebase.database().ref("users");

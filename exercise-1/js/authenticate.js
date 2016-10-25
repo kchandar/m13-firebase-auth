@@ -3,7 +3,7 @@ $(function() {
 
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyAviKZmMKsPQMwYlm-kPHOkv5Qs9OWEyQg",
+        apiKey: "AIzaSyAviKZmMKsPQMwYlm-kPHOkv5Qs9OWEyQg", 
         authDomain: "m13-authentication.firebaseapp.com",
         databaseURL: "https://m13-authentication.firebaseio.com",
         storageBucket: "m13-authentication.appspot.com",

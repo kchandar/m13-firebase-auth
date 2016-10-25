@@ -2,7 +2,7 @@
 
 $(function() {
     // Chats reference
-    var chats = firebase.database().ref('chats');
+    var chats = firebase.database().ref('chats'); 
 
     // Listen for children being added:fired once on load, then each time a child is added
     chats.on('child_added', function(snapshot) {
